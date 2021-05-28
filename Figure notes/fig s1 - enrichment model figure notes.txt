@@ -1,0 +1,5 @@
+Enrichment model figure notes
+
+Already discussed in detail in text about creation of model.
+
+Created with matlab script flux.m

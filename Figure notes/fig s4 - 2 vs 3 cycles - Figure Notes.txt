@@ -1,0 +1,36 @@
+Figure Notes - 2 vs 3 Cycles - 3/30/21
+
+Data is from the PTFE samples irradiated Sept 2018 in CLASS
+-Second set of samples irradiated to 1E10, 1E11, and 1E12 (15 samples each), hence the _s2 or _set2_ designation in file names
+--Difference between this and first set of samples is that both heating and cooling data were collected for this set.
+-3 heat/cool cycles @10C/min from 250-375C 
+-Samples ~1.4 mg each
+
+Kevin's Notes from this irradiation: (see email 9/27/18)
+--I set up the beam to be larger than the aperture in front of the targets, centered and circular. 
+--Then, I collimate the beam with a 8 mm diameter aperture so that the edges of the beam do not touch other targets on the target holder. 
+--The beam size I got to with your samples before collimation was about 1.6 cm in diameter, as measured on a beam profile monitor. 
+--This makes the flux through the aperture more uniform, and I estimate the spatial variation in the fluence to the samples 
+--from the edge to the center to be ~30%. So, I picked a collected charge to get to the nominal fluence that you requested 
+--and the actual variation from that nominal value is ~+/- 15%. On top of this, it was more difficult to hit the lower fluences exactly, 
+--so there is some spread in the nominal fluences for each fluence category across the 15 samples in each category. 
+--The standard deviation for the 1e12 was ~1%, 1e11 was ~4%, and the 1e10 ~7%. I can explain this further in person if you'd like.
+--I measure the fluence by collecting the charge and stopping the beam when I get to a certain collected charge. 
+--The beam energy was 4500 keV, the nominal beam current through the aperture was 2.5 nA. 
+--The samples were clipped onto the sample holder with a strip of silicon. I estimate the area under the clip to be ~7% based on photos.
+
+Data Processing:
+-Trios data exported to excel, and then saved to .csv by individual heating or cooling ramp
+-For each set (heat 1-3 and cool 1-3), data is interpolated and de-hooked (shortened around a range)
+-Simple linear baseline is subtracted for both heating and cooling
+--Baselinea defined by endpoints of range 260-360 C
+-Plotted in Plot_s2.m
+--3/30/21--
+--Cleaned up file and added notes on processing to header
+--Re plotted with consistent colors to main paper Figure 3
+
+Image processing:
+-svg and jpg saved directly from Matlab
+--Figure window maximized to get correct proportions
+-No additional annotations
+

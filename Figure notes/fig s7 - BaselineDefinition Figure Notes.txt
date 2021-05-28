@@ -1,0 +1,29 @@
+Figure Notes - DSC and FDSC data processing/spline baseline definitions figure.
+-Demonstrating and comparing baseline construction for FDSC and DSC 
+
+
+(a) and (b): DSC - Heat and Cool data (2nd cycle)
+Figures created in Cool2_Apr19_finalAnalysis.m and Heat2_apr19_finalAnalysis.m
+Actual data, control sample number 2
+Cool: interpolated, centered around peak, 20 C left + 15 C right of peak, f = 2 (fraction of range to either side used for definition of construction lines)
+Heat: interpolated, centered around peak, 30 C left + 15 C right of peak, f = 2 (fraction of range to either side used for definition of construction lines)
+Exported as .svg for annotations in illustrator
+
+
+(c): Explanation for why spline (vs linear baseline)
+Figure created in Heat2_Apr19_figs.m, for heating data
+Compares std/area (relative deviation) for linear and spline baselines
+Linear baseline defined as straight line between 260 and 360 C
+Spline baseline NOT centered around peak, construction lines defined [295,310] and [340,355]
+Exported as .svg for annotations in illustrator
+
+(d): FDSC  - Cool data (just baseline construction explanation)
+Raw data loaded individually with loading scripts and saved to .mat files
+Construction lines are NOT centered around peak. Simply defined from [220,260] and [350,365] C.
+Figure generated with FinalAnalysis.m and %%figure section commented in for the Spline_Baseline_Integral.m function 
+Data from Class 4 slice 23 (set _76) and slice 32 (set _77) in blue and cyan
+Exported as .svg for annotations in illustrator
+
+
+Annotations added in illustrator:
+Just sub figure labels

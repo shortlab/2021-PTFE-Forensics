@@ -1,0 +1,7 @@
+FSC main result figure notes
+
+Created from FinalFigs_Paper.m
+
+Inset from plotSRIM.m
+
+Arranged in Illustrator with some annotations copied over from powerpoint.

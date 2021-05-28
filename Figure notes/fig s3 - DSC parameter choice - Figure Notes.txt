@@ -1,0 +1,12 @@
+Figure Notes - 3/30/21
+
+Raw data plotted in TRIOS, default zoom, print to pdf (vector graphic friendly)
+-(a) PTFE_Small_Check.tri ---> various heating rates with film stock
+-(b) PTFE_cycle_More.tri ---> x50 consecutive cycles 
+
+Annotated in Illustrator
+-Rewrote and moved legend for (a)
+-Added annotations for curves in (b)
+-Moved TRIOS watermark
+-Replaced "T" in temperature axis
+-Adding heating and cooling arrows

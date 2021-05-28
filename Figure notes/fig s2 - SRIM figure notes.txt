@@ -1,0 +1,6 @@
+SRIM figure notes
+
+Srim profiles calculated and saved from SRIM 2013. all details already in paper text.
+
+.bmp outputs Aligned in illustrator and 
+part C added from Mike's Crete powerpoint slides for qualitative comparison and then swapped with Julie's GEANT simulations

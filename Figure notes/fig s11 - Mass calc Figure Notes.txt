@@ -1,0 +1,14 @@
+FDSC mass methodology Figure Notes
+
+
+(a,b,c) From Cp_to_Mass_Trial.m
+(a) - Representative Data
+(b) - Methodology for correcting Cp(total)
+(c) - Average of Cp(specific) after comparing to literature. 
+Data is taken from set 5 (_44), slice 19
+Data for all the averaged masses is from the entire _44 group
+
+(d) Actual masses from main study from FinalAnalysis.m
+
+Illustrator: Arranged (b) as zoomed in view of (a)
+Added labels

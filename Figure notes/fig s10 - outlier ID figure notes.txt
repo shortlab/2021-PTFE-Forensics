@@ -1,0 +1,19 @@
+Figure Notes - FDSC outlier removal
+
+All figures are generated with FinalAnalysis.m
+
+(a) Unit step function response with isotherms
+To generate this figure, Figure section must be uncommented in outliersID.m
+Data is _nc (set 5). 
+Example of a unit step response, critically damped, has parameters k = 1, z = 1, w = 500.
+Saved as .svg  
+
+
+(b) Results with outliers
+Figures are generated with FinalAnalysis.m
+
+
+
+(c) Results - outliers removed 
+Figures are generated with FinalAnalysis.m
+threshhold set to 1.1 for critical-ness

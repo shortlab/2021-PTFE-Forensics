@@ -1,0 +1,16 @@
+Figure Notes - FDSC heating rate
+
+Heating Rates tested on an practice microtome section slice
+Order of cycles:
+1-2: 500 kps
+3-4: 200 kps
+5-6: 100 kps 
+7-8: 50 kps
+9-10: 10 kps
+11: 1 kps
+12-15: 500 kps
+
+Figure generated in processHR.m
+Note that the data for different heating rates was different because the automatic sampling rate would change by order of magnitude
+For comparison purposes, data was interpolated at the lowest number of points
+Spline baseline was subtracted.

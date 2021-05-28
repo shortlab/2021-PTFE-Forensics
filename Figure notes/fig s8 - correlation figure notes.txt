@@ -1,0 +1,5 @@
+Correlation model for enthalpy and fluence figure notes
+
+Created in createFit.m
+
+Saved as svg and jpg

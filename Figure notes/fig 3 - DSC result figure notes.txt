@@ -1,0 +1,6 @@
+Main DSC figure notes
+
+-Created in FinalFigs_Paper.m
+- Annotations for important enrichments added in illustrator, based on quadratic extrapolations and 95% prediction bounds.
+
+
